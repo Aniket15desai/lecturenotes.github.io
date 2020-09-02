@@ -167,9 +167,7 @@ button{
     cursor: pointer;
     border-radius: 10px;
 }
-.Contact h3{
-    margin-left: 60px;
-}
+
 /*Responsive sheet Max-Width: 1130px*/
 @media (max-width: 1130px){
     .header_content h2{
