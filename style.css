@@ -137,6 +137,39 @@ div a img{
     height: 510px;
     margin-bottom: 50px;
 }
+.Contact{
+    background-color: black;
+    color: white;
+    padding: 34px;
+    max-width: 90%;
+    margin: auto;
+}
+.Contact h1{
+    margin-left: 60px;
+    margin-bottom: 60px;
+}
+input, textarea{
+    width: 60%;
+    margin: 10px;
+    padding: 7px;
+    font-size: 14px;
+    margin-left: 60px;
+    border: 2px solid gray;
+    display: block;
+}
+button{
+    margin-left: 60px;
+    margin-top: 20px;
+    color: red;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.Contact h3{
+    margin-left: 60px;
+}
 /*Responsive sheet Max-Width: 1130px*/
 @media (max-width: 1130px){
     .header_content h2{
