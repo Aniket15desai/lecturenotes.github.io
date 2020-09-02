@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    font-family: montserrat;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("Image/1.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all .5s;
+
+}
+.menubar{
+    width: 100%;
+    background: #104;
+    text-align: right;
+    position: fixed;
+    z-index: 11111; 
+    padding: 0;
+}
+.menubar ul{
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 15px;
+    display: inline-block;
+}
+.menubar ul a{
+    text-decoration: none;
+    letter-spacing: 0.2rem;
+    color: white;
+    padding: 18px;
+}
+.menubar ul a:hover{
+    background-color: #102b45;
+    transition: all .6s;
+    color: indianred;
+    border-radius: 10px;
+}
+.checkbtn{
+    display: none;
+    font-size: 20px;
+	color: white;
+	float: right;
+	line-height: 65px;
+	margin-right: 20px;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.checkbtn:hover{
+    background-color: #102b45;
+    border-radius: 10px;
+}
+#check{
+    display: none;
+}
+.menubar ul a .fab{
+    color: white;
+}
+.menubar ul .fa, .fas{
+    margin-right: 8px;
+}
+#fb:hover{
+    color: white;
+}
+.header_content{
+    text-transform: uppercase;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    color: gold;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.header_content h2{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 2000;
+    letter-spacing: 0.3em;
+    color: rgba(255,255,255,.8);
+}
+
+.header_content h1{
+    margin-top: 10px;
+    font-size: 50px;
+    color: gold;
+    font-weight: 500;
+    letter-spacing: 0.3em;
+    text-align: center;
+}
+.Blog{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    text-transform: capitalize;
+}
+.Blog h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #101292;
+}
+.Blog h3, .About h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+div a img{
+    width: 720px; 
+    height: 480px; 
+    margin-bottom: 10px;
+}
+.Blog p, .About p{
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.About{
+    text-align: center;
+    text-transform: capitalize;
+}
+.About h1{
+    font-size: 40px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    color: red;
+}
+.About img{
+    width: 360px;
+    height: 510px;
+    margin-bottom: 50px;
+}
+/*Responsive sheet Max-Width: 1130px*/
+@media (max-width: 1130px){
+    .header_content h2{
+        font-size: 25px;
+    }
+}
+/*Responsive sheet Max-Width: 1000px*/
+@media (max-width: 1000px){
+    .header_content h2{
+        font-size: 20px;
+    }
+}
+/*Responsive sheet Max-Width: 900px*/
+@media (max-width: 900px){
+    .checkbtn{
+        display: block;
+    }
+    .menubar ul{
+        position: absolute;
+        width: 100%;
+        height: 55vh;
+        background: #104;
+        top: 60px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        text-decoration: none;
+        display: block;
+    }
+    .menubar ul a{
+        font-size: 15px;
+        text-align: center;
+        line-height: 25px;
+        width: 100%;
+        display: block;
+    }
+    .menubar ul .fa, .fas{
+        margin-right: 8px;
+    }
+    .active{
+        display: block;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    #check{
+		display: none;
+    }
+    .menubar ul a .fab{
+        display: block;
+    }
+    .header_content h2{
+        font-size: 19px;
+    }
+    .header_content h1{
+        font-size: 45px;
+    }
+    .Blog, .About{
+        margin-top: 60px;
+    }
+    .Blog h1, .About h1{
+        font-size: 37px;
+        margin-bottom: 45px;
+    } 
+    .Blog h3, .About h3{
+        font-size: 28px;
+    }
+    .Blog a img{ 
+        width: 660px;
+        height: 440px;
+    }
+}
+/*Responsive sheet Max-Width: 840px*/
+@media (max-width: 840px){
+    .header_content h2{
+        font-size: 18px;
+    }
+    .header_content h1{
+        font-size: 40px;
+    }
+    .Blog, .About{
+        margin-top: 50px;
+    }
+    .Blog h1, .About h1{
+        font-size: 34px;
+        margin-bottom: 40px;
+    }
+    .Blog a img{
+        width: 600px;
+        height: 400px;
+    }
+    .Blog h3, .About h3{
+        font-size: 26px;
+    } 
+}
+/*Responsive sheet Max-Width: 760px*/
+@media (max-width: 760px){
+    .header_content h2{
+        font-size: 17px;
+    }
+    .header_content h1{
+        font-size: 35px;
+    }
+    .Blog, .About{
+        margin-top: 45px;
+    }
+    .Blog h1, .About h1{
+        font-size: 31px;
+        margin-bottom: 35px;
+    } 
+    .Blog a img{
+        width: 540px;
+        height: 360px;
+    }
+    .Blog h3, .About h3{
+        font-size: 24px;
+    }
+}
+/*Responsive sheet Max-Width: 640px*/
+@media (max-width: 640px){
+    .header_content h2{
+        font-size: 16px;
+    }
+    .header_content h1{
+        font-size: 30px;
+    }
+    .Blog .About{
+        margin-top: 40px;
+    }
+    .Blog h1, .About h1{
+        font-size: 28px;
+        margin-bottom: 30px;
+    } 
+    .Blog a img{
+        width: 480px;
+        height: 320px;
+    }
+    .Blog h3, .About h3{
+        font-size: 22px;
+    }
+}
+/*Responsive sheet Max-Width: 540px*/
+@media (max-width: 540px){
+    .header_content h2{
+        font-size: 15px;
+    }
+    .header_content h1{
+        font-size: 25px;
+    }
+    .Blog, .About{
+        margin-top: 30px;
+    }
+    .Blog h1, .About h1{
+        font-size: 25px;
+        margin-bottom: 25px;
+    } 
+    .Blog a img{
+        width: 420px;
+        height: 280px;
+    }
+    .Blog h3, .About h3{
+        font-size: 20px;
+    }
+}
+@media (max-width: 480px){
+    .Blog a img{
+        width: 360px;
+        height: 240px;
+    }
+}
+
