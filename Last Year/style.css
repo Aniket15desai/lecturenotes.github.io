@@ -120,8 +120,8 @@ header{
     text-decoration: none; 
     color: white; 
     border-radius: 10px;
-    padding: 5px;
-    font-size: 16px;
+    padding: 2px;
+    font-size: 15px;
 }
 .Contact a:hover{
     color: indianred;
@@ -350,6 +350,12 @@ header{
     .Hotel div .v{
         width: 240px;
         height: 360px;
+    }
+    .Contact div{
+        margin-left: 10px;
+    }
+    .Contact div a{
+        font-size: 10px;
     }
 }
 

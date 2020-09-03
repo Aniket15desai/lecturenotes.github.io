@@ -161,7 +161,7 @@ div a img{
     color: white; 
     border-radius: 10px;
     padding: 2px;
-    font-size: 16px;
+    font-size: 15px;
 }
 .Contact a:hover{
     color: indianred;
@@ -366,6 +366,12 @@ div a img{
     .Blog a img{
         width: 360px;
         height: 240px;
+    }
+    .Contact div{
+        margin-left: 10px;
+    }
+    .Contact div a{
+        font-size: 10px;
     }
 }
 
