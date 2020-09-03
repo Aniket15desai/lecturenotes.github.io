@@ -21,7 +21,7 @@
             <a href="#"><i class="fa fa-home"></i>Home</a>
             <a href="#B"><i class="fas fa-blog"></i>Blog</a>
             <a href="#A"><i class="fa fa-user"></i>About</a>
-            <a href=""><i class="fa fa-phone"></i>Contact</a>
+            <a href="#C"><i class="fa fa-phone"></i>Contact</a>
             <a class="fb" href="https://www.facebook.com"><i id="fb" class="fab fa-facebook"></i></a>
         </ul>
     </nav>
@@ -31,6 +31,8 @@
     </div>
     </header>
     <br id="B">
+    <br>
+    <br>
     <br>
     <div class="Blog">
         <h1>Blog</h1>
@@ -61,21 +63,47 @@
         <img src="Image/Shubham.jpg">
         <p>Details about shubham</p>
     </div>
-    <div class="Contact">
-       <h1>Contact</h1> 
-       <form action="index.php" method="POST">
-            <input type="text" name="name" id="name" placeholder="Enter Your Name">
-            <input type="email" name="email" id="email" placeholder="Enter Your Email">
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
-            <button class="btn">Submit</button>
-            <button class="reset">Reset</button>
-            <?php
-                if($insert == true){
-                    echo "<h2 style='margin-left: 60px; margin-top:30px;'>Thanks For Submitting</h2>";
-                }
-            ?>
-       </form>
-    </div>
-    <script href="index.js"></script>
+    <br id="C">
+    <footer class="Contact">
+        <h1>Contact</h1> 
+        <h2>Phone Number</h2>
+        <a href="tel:+917020464331">+917020464331</a>   
+
+        <h2>Email</h2>
+        <a href="mailto:shubhambhatmargao@gmail.com">shubhambhatmargao@gmail.com</a>
+
+        <h2>Address</h2>
+        <a href="https://goo.gl/maps/AAAaV8rNTJaUNhJq8">Click For Map</a>
+        
+        <p>© The Travel Blog By Shubham Bhat 2020</p>
+
+        <a href="#" id="mybtn" oneclick="topFunction()" class="mh-back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+    </footer>
+    <div class="country" style="background-color: dimgrey"><p style="margin-left: 20px;">IN-20394859</p></div>
+    <script href="index.js">
+
+    //Get the button
+        var mybutton = document.getElementById("mybtn");
+
+    // When the user scrolls down 400px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 800) {
+            mybutton.style.display = "block";
+        } 
+        else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+
+    </script>
 </body>
 </html>

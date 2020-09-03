@@ -79,18 +79,69 @@ header{
     text-transform: uppercase;
     text-decoration: underline;
 }
-.Hotel h3{
+.Hotel h3, .Contact h2{
     font-size: 30px;
     margin-bottom: 30px;
 }
-div div img{
-    width: 50%; 
-    height: auto; 
+.Hotel div img{
+    width: 680px; 
+    height: 450px; 
     margin-bottom: 10px;
+}
+.Hotel div .v{
+    width: 460px;
+    height: 680px;
 }
 .Hotel p{
     font-size: 20px;
     margin-bottom: 70px;
+}
+.Contact{
+    background-color: #2a2a2a;
+    color: white;
+    padding: 34px;
+    max-width: 100%;
+    margin: auto;
+}
+.Contact h1{
+    margin-left: 60px;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+.Contact h2{
+    margin-left: 60px; 
+    margin-top:30px;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.Contact a{
+    margin-left: 60px; 
+    border: 2px solid white; 
+    text-decoration: none; 
+    color: white; 
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+.Contact a:hover{
+    color: indianred;
+}
+.Contact p{
+    text-align: center;
+    margin-top: 50px;
+}
+.Contact .mh-back-to-top {
+    position: fixed;
+    display: none;
+    right: 25px;
+    bottom: 25px;
+    padding: 5px 8px 8px;
+    color: #fff;
+    background: #e64946;
+    z-index: 999;
+}
+.Contact .mh-back-to-top:hover{
+    color: ivory;
 }
 /*Responsive sheet Max-Width: 1130px*/
 @media (max-width: 1130px){
@@ -112,7 +163,7 @@ div div img{
     .menubar ul{
         position: absolute;
         width: 100%;
-        height: 45vh;
+        height: 35vh;
         background: #104;
         top: 60px;
         left: -100%;
@@ -122,11 +173,14 @@ div div img{
         display: block;
     }
     .menubar ul a{
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
         line-height: 25px;
         width: 100%;
         display: block;
+    }
+    .menubar ul .fa, .fas{
+        margin-right: 8px;
     }
     .active{
         display: block;
@@ -146,8 +200,23 @@ div div img{
     .header_content h1{
         font-size: 45px;
     }
-    div h1{
-        font-size: 35px;
+    .Hotel, .Contact{
+        margin-top: 60px;
+    }
+    .Hotel h1, .Contact h1{
+        font-size: 37px;
+        margin-bottom: 45px;
+    } 
+    .Hotel h3, .Contact h2{
+        font-size: 28px;
+    }
+    .Hotel div img{ 
+        width: 660px;
+        height: 440px;
+    }
+    .Hotel div .v{
+        width: 440px;
+        height: 660px;
     }
 }
 /*Responsive sheet Max-Width: 840px*/
@@ -158,9 +227,24 @@ div div img{
     .header_content h1{
         font-size: 40px;
     }
-    div h1{
-        font-size: 30px;
+    .Hotel, .Contact{
+        margin-top: 50px;
     }
+    .Hotel h1, .Contact h1{
+        font-size: 34px;
+        margin-bottom: 40px;
+    }
+    .Hotel div img{
+        width: 600px;
+        height: 400px;
+    }
+    .Hotel div .v{
+        width: 400px;
+        height: 600px;
+    }
+    .Hotel h3, .Contact h2{
+        font-size: 26px;
+    } 
 }
 /*Responsive sheet Max-Width: 760px*/
 @media (max-width: 760px){
@@ -170,8 +254,23 @@ div div img{
     .header_content h1{
         font-size: 35px;
     }
-    div h1{
-        font-size: 25px;
+    .Hotel, .Contact{
+        margin-top: 45px;
+    }
+    .Hotel h1, .Contact h1{
+        font-size: 31px;
+        margin-bottom: 35px;
+    } 
+    .Hotel div img{
+        width: 540px;
+        height: 360px;
+    }
+    .Hotel div .v{
+        width: 360px;
+        height: 540px;
+    }
+    .Hotel h3, .Contact h2{
+        font-size: 24px;
     }
 }
 /*Responsive sheet Max-Width: 640px*/
@@ -182,7 +281,24 @@ div div img{
     .header_content h1{
         font-size: 30px;
     }
-
+    .Hotel .Contact{
+        margin-top: 40px;
+    }
+    .Hotel h1, .Contact h1{
+        font-size: 28px;
+        margin-bottom: 30px;
+    } 
+    .Hotel div img{
+        width: 480px;
+        height: 320px;
+    }
+    .Hotel div .v{
+        width: 320px;
+        height: 480px;
+    }
+    .Hotel h3, .Contact h2{
+        font-size: 22px;
+    }
 }
 /*Responsive sheet Max-Width: 540px*/
 @media (max-width: 540px){
@@ -191,6 +307,34 @@ div div img{
     }
     .header_content h1{
         font-size: 25px;
+    }
+    .Hotel, .Contact{
+        margin-top: 30px;
+    }
+    .Hotel h1, .Contact h1{
+        font-size: 25px;
+        margin-bottom: 25px;
+    } 
+    .Hotel div img{
+        width: 420px;
+        height: 280px;
+    }
+    .Hotel div .v{
+        width: 280px;
+        height: 420px;
+    }
+    .Hotel h3, .Contact h2{
+        font-size: 20px;
+    }
+}
+@media (max-width: 480px){
+    .Hotel div img{
+        width: 360px;
+        height: 240px;
+    }
+    .Hotel div .v{
+        width: 240px;
+        height: 360px;
     }
 }
 

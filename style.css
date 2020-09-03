@@ -107,7 +107,7 @@ header{
     text-decoration: underline;
     color: #101292;
 }
-.Blog h3, .About h3{
+.Blog h3, .About h3, .Contact h2{
     font-size: 30px;
     margin-bottom: 30px;
 }
@@ -120,7 +120,6 @@ div a img{
     font-size: 20px;
     margin-bottom: 70px;
 }
-
 .About{
     text-align: center;
     text-transform: capitalize;
@@ -138,36 +137,52 @@ div a img{
     margin-bottom: 50px;
 }
 .Contact{
-    background-color: black;
+    background-color: #2a2a2a;
     color: white;
     padding: 34px;
-    max-width: 90%;
+    max-width: 100%;
     margin: auto;
 }
 .Contact h1{
     margin-left: 60px;
     margin-bottom: 60px;
+    font-size: 40px;
 }
-input, textarea{
-    width: 60%;
-    margin: 10px;
-    padding: 7px;
-    font-size: 14px;
-    margin-left: 60px;
-    border: 2px solid gray;
-    display: block;
+.Contact h2{
+    margin-left: 60px; 
+    margin-top:30px;
+    text-decoration: underline;
+    text-decoration-color: red;
 }
-button{
-    margin-left: 60px;
-    margin-top: 20px;
-    color: red;
-    padding: 8px 12px;
-    font-size: 14px;
-    border: 2px solid black;
-    cursor: pointer;
+.Contact a{
+    margin-left: 60px; 
+    border: 2px solid white; 
+    text-decoration: none; 
+    color: white; 
     border-radius: 10px;
+    padding: 5px;
+    font-size: 16px;
 }
-
+.Contact a:hover{
+    color: indianred;
+}
+.Contact p{
+    text-align: center;
+    margin-top: 50px;
+}
+.Contact .mh-back-to-top {
+    position: fixed;
+    display: none;
+    right: 25px;
+    bottom: 25px;
+    padding: 5px 8px 8px;
+    color: #fff;
+    background: #e64946;
+    z-index: 999;
+}
+.Contact .mh-back-to-top:hover{
+    color: ivory;
+}
 /*Responsive sheet Max-Width: 1130px*/
 @media (max-width: 1130px){
     .header_content h2{
@@ -225,14 +240,14 @@ button{
     .header_content h1{
         font-size: 45px;
     }
-    .Blog, .About{
+    .Blog, .About, .Contact{
         margin-top: 60px;
     }
-    .Blog h1, .About h1{
+    .Blog h1, .About h1, .Contact h1{
         font-size: 37px;
         margin-bottom: 45px;
     } 
-    .Blog h3, .About h3{
+    .Blog h3, .About h3, .Contact h2{
         font-size: 28px;
     }
     .Blog a img{ 
@@ -248,10 +263,10 @@ button{
     .header_content h1{
         font-size: 40px;
     }
-    .Blog, .About{
+    .Blog, .About, .Contact{
         margin-top: 50px;
     }
-    .Blog h1, .About h1{
+    .Blog h1, .About h1, .Contact h1{
         font-size: 34px;
         margin-bottom: 40px;
     }
@@ -259,7 +274,7 @@ button{
         width: 600px;
         height: 400px;
     }
-    .Blog h3, .About h3{
+    .Blog h3, .About h3, .Contact h2{
         font-size: 26px;
     } 
 }
@@ -271,10 +286,10 @@ button{
     .header_content h1{
         font-size: 35px;
     }
-    .Blog, .About{
+    .Blog, .About, .Contact{
         margin-top: 45px;
     }
-    .Blog h1, .About h1{
+    .Blog h1, .About h1, .Contact h1{
         font-size: 31px;
         margin-bottom: 35px;
     } 
@@ -282,7 +297,7 @@ button{
         width: 540px;
         height: 360px;
     }
-    .Blog h3, .About h3{
+    .Blog h3, .About h3, .Contact h2{
         font-size: 24px;
     }
 }
@@ -294,10 +309,10 @@ button{
     .header_content h1{
         font-size: 30px;
     }
-    .Blog .About{
+    .Blog .About, .Contact{
         margin-top: 40px;
     }
-    .Blog h1, .About h1{
+    .Blog h1, .About h1, .Contact h1{
         font-size: 28px;
         margin-bottom: 30px;
     } 
@@ -305,7 +320,7 @@ button{
         width: 480px;
         height: 320px;
     }
-    .Blog h3, .About h3{
+    .Blog h3, .About h3, .Contact h2{
         font-size: 22px;
     }
 }
@@ -317,10 +332,10 @@ button{
     .header_content h1{
         font-size: 25px;
     }
-    .Blog, .About{
+    .Blog, .About, .Contact{
         margin-top: 30px;
     }
-    .Blog h1, .About h1{
+    .Blog h1, .About h1, .Contact h1{
         font-size: 25px;
         margin-bottom: 25px;
     } 
@@ -328,7 +343,7 @@ button{
         width: 420px;
         height: 280px;
     }
-    .Blog h3, .About h3{
+    .Blog h3, .About h3, .Contact h2{
         font-size: 20px;
     }
 }
