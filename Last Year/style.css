@@ -68,7 +68,7 @@ header{
 label.logo{
     color: white;
     font-size: 20px;
-    line-height: 40px;
+    line-height: 48px;
     padding: 0 100px;
     font-weight: bold;
     float: left;
@@ -209,7 +209,7 @@ label.logo{
     label.logo{
         font-size: 30px;
         padding-left: 40px;
-        line-height: 50px; 
+        line-height: 48px; 
     }
     .header_content h1{
         font-size: 45px;
