@@ -123,9 +123,9 @@ label.logo{
 div a img{
     width: 720px; 
     height: 480px; 
-    margin-bottom: 10px;
+    margin-bottom: 70px;
 }
-.Blog p, .About p{
+.About p{
     font-size: 20px;
     margin-bottom: 70px;
 }
