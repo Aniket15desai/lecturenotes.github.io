@@ -65,7 +65,16 @@ header{
 #fb:hover{
     color: white;
 }
-
+label.logo{
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0 100px;
+    font-weight: bold;
+    float: left;
+    margin-top: 7px;
+    text-align: left;
+}
 .Hotel{
     margin-top: 50px;
     margin-bottom: 60px;
@@ -196,6 +205,11 @@ header{
     }
     .header_content h2{
         font-size: 19px;
+    }
+    label.logo{
+        font-size: 30px;
+        padding-left: 40px;
+        line-height: 35px; 
     }
     .header_content h1{
         font-size: 45px;
