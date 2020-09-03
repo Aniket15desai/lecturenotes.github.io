@@ -103,19 +103,19 @@ header{
     max-width: 100%;
     margin: auto;
 }
-.Contact h1{
+.Contact div{
     margin-left: 60px;
+}
+.Contact h1{
     margin-bottom: 60px;
     font-size: 40px;
 }
 .Contact h2{
-    margin-left: 60px; 
     margin-top:30px;
     text-decoration: underline;
     text-decoration-color: red;
 }
-.Contact a{
-    margin-left: 60px; 
+.Contact a{ 
     border: 2px solid white; 
     text-decoration: none; 
     color: white; 
@@ -218,6 +218,9 @@ header{
         width: 440px;
         height: 660px;
     }
+    .Contact div{
+        margin-left: 50px;
+    }
 }
 /*Responsive sheet Max-Width: 840px*/
 @media (max-width: 840px){
@@ -245,6 +248,9 @@ header{
     .Hotel h3, .Contact h2{
         font-size: 26px;
     } 
+    .Contact div{
+        margin-left: 40px;
+    }
 }
 /*Responsive sheet Max-Width: 760px*/
 @media (max-width: 760px){
@@ -271,6 +277,9 @@ header{
     }
     .Hotel h3, .Contact h2{
         font-size: 24px;
+    }
+    .Contact div{
+        margin-left: 30px;
     }
 }
 /*Responsive sheet Max-Width: 640px*/
@@ -299,6 +308,9 @@ header{
     .Hotel h3, .Contact h2{
         font-size: 22px;
     }
+    .Contact div{
+        margin-left: 20px;
+    }
 }
 /*Responsive sheet Max-Width: 540px*/
 @media (max-width: 540px){
@@ -325,6 +337,9 @@ header{
     }
     .Hotel h3, .Contact h2{
         font-size: 20px;
+    }
+    .Contact div{
+        margin-left: 15px;
     }
 }
 @media (max-width: 480px){
