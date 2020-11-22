@@ -1,168 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <title>Sample Website</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/f9cebb06b7.js" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodies</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/f9cebb06b7.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <!-- Navigation Bar Section -->
+    <nav class="navbar navbar-expand-lg bg fixed-top">
+        <div class="navbar-brand" href="#"><img src="img/Purple and Yellow Floral Dots Thaithai Restaurant Logo.png" alt=""></div>
+        <button 
+          id="nav-btn" 
+          class="navbar-toggler navbar-toggler-right" 
+          type="button" 
+          data-toggle="collapse" 
+          data-target="#navbarNav" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
+          <span class="fa fa-bars hamburger-menu-button-open"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#H"><i class="fa fa-home"></i>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#B"><i class="fa fa-blog"></i>Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form.html"><i class="fa fa-user"></i>Blog Post Form</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#C"><i class="fa fa-phone"></i>Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
     <!-- Home -->
-	<div class="Container">
-		<header id="H">
-			<div class="navigation-bar">
-				<i class="fa fa-mobile" aria-hidden="true">&nbsp;&nbsp;
-					<a href="tel:+7020464331">7020464331</a>
-				</i>&nbsp;&nbsp;&nbsp;&nbsp;
-				<i class="fa fa-envelope" aria-hidden="true">&nbsp;&nbsp;
-					<a href="mailto:aniketsardesai44@gmail.com">aniketsardesai44@gmail.com</a>
-				</i>
-			</div>
-    	    <div class="navigation-bar1">
-        	    <ul>
-            	    <a href="#H"><i class="fa fa-home"></i>Home</a>
-            		<a href="#V"><i class="fa fa-youtube-play"></i>Video</a>
-            		<a href="#A"><i class="fa fa-user"></i>About</a>
-            		<a href="#C"><i class="fa fa-phone"></i>Contact</a>
-        	    </ul>
-        	</div>
-        	<div class="header_content">
-            	<h2>Aniket Sardesai | Bloger | Youtuber</h2>
-            	<h1>WEB DEVELOPER</h1>
-        	</div>
-    	</header>
-
-	<br id="V"><br><br><br><br><br><br><br>
-    <!-- Video -->
-    <div class="Video"> 
-		<hr>
-        <h1>Videos</h1>
-		<hr>
-
-        <h2 class="hanuman">Ik Vaari Aa | Raabta</h2>
-		            <iframe width="540" height="300" 
-			        src="https://youtube.com/embed/bT8cXxFKtd8?rel=0" frameborder="0" 
-			        allowfullscreen></iframe><br>   
-        <h2>Ya Re Ya | Ganpati Bappa Morya</h2>
-			<iframe width="540" height="300" 
-			src="https://youtube.com/embed/P1oZy27xV5E?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
-
-        <h2>Shivaba Amcha Malhari</h2>
-			<iframe width="540" height="300" 
-			src="https://youtube.com/embed/gRCp8Q9RTZM?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
-
-        <h2>Ganpati DJ Song</h2>
-    		        <iframe width="540" height="300" 
-			src="https://youtube.com/embed/IzjNUfvNKSA?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
-
-        <h2>Khulke Jeene Ka | Dil Bechara</h2>
-        	        <iframe width="540" height="300" 
-			src="https://youtube.com/embed/9w3X3TJ_rmQ?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
-
-        <h2>Kanderaya Zali Mazi Daina</h2>
-    		<iframe width="540" height="300" 
-			src="https://youtube.com/embed/H2-dJeU1IJs?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
-
-        <h2>Qaafirana | Kedarnath</h2>
-        	<iframe width="540" height="300" 
-			src="https://youtube.com/embed/hweWXcQt7Og?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
-
-        <h2>Taare Ginn | Dil Bechara</h2>
-        	<iframe width="540" height="300" 
-			src="https://youtube.com/embed/9T0z7BtgHE8?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
-
-        <h2>Perfect | Ed Sheeran</h2>
-    		<iframe width="540" height="300" 
-			src="https://youtube.com/embed/Oit7eY1c63s?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
-
-        <h2>Kitne They Khwaab Dekhe | Hello Movie</h2>
-    		<iframe width="540" height="300" 
-			src="https://youtube.com/embed/qTsHb_19W1Y?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
-
-        <h2>Memories | Maroon 5</h2>
-			<iframe width="540" height="300" 
-			src="https://youtube.com/embed/5eRu9Yo5_-k?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
-
-        <h2>Khoro Mog | Nikhil Pinto</h2>
-    		<iframe width="540" height="300" 
-			src="https://youtube.com/embed/8Hkz6VR_Fiw?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
-
-        <h2>Mere Nishan | OMG </h2>
-			<iframe width="540" height="300" 
-			src="https://youtube.com/embed/YWuxBj0ms98?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
-
-        <h2>Kaun Hai Woh | Bahubali </h2>
-    		<iframe width="540" height="300" 
-			src="https://youtube.com/embed/n_1YkWom3xI?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
-
-        <h2>Bhagwan Hai Kaha Re Tu</h2>
-			<iframe width="540" height="300" 
-			src="https://youtube.com/embed/Cve4MWmkEQM?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
-
-        <h2>Kaun Kehte Hai Bhagwan Aate Nahi</h2>
-			<iframe width="540" height="300" 
-			src="https://youtube.com/embed/RQ-b6KM7Ccs?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
-
-        <h2>Namo Namo Shankara</h2>
-			<iframe width="540" height="300" 
-			src="https://youtube.com/embed/PXoXQtUkQZg?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
- 
-	    <h2>Hum Katha Sunate | Ramanand Sagar Ramayan</h2>
-    		<iframe width="540" height="300" 
-			src="https://youtube.com/embed/slk_NQVnDhA?rel=0" frameborder="0" 
-			allowfullscreen></iframe>	
-        		
-    	<h2>Shiv Tandav</h2>
-    		<iframe width="540" height="300" 
-			src="https://youtube.com/embed/fUmR6O2uNq4?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
-
-        <h2>Hanuman Chalisha</h2>
-			<iframe width="540" height="300" 
-			src="https://youtube.com/embed/2p4Fib3zzLE?rel=0" frameborder="0" 
-			allowfullscreen></iframe>
+    <div class="Home pt-3" id="H">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-6">
+          <h1>Welcome to our mouth-watering recipies </h1>
+          <a href="#A">
+            <button type="button">
+              Show Blogs
+            </button>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="img/biryani.png"
+            alt="Header image"
+          />
+        </div>
+      </div>
+      <br id="B">
     </div>
 
-    <!-- About -->
-    <div class="About" id="A">
-	
-		<h1 class="bg-success">about us</h1>
-		<p>This website is all about the 8D Musics. i have my channel on youtube which contain all songs with 8D effects. please subscribe my channel and listen 8D music</p>
-		<p>Share | Like | Comment | Subsribe</p>
-	</div>
+    <!-- Blogs -->
 
-    <!-- Contact -->
-	<div class="Contact" id="C">
-		<h1>Contact</h1>
-
-        <p>To connect with me on Facebook :    
-            <a href="https://www.facebook.com/aniket.sardesai.9">
-                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+    <div class="Blog">
+      <div class="row pt-3">
+        <h1>Blogs</h1>
+        <div class="col-md-3">
+            <a href="">
+              <article>
+                <figure>
+                  <img src="img/abhi-bakshi-sqcH2q7lkvo-unsplash.jpg" alt="">
+                </figure>
+                <div>
+                  <h3>How to make butter chicken</h3>
+                </div>
+              </article>
             </a>
-        </p>
-
-		<p>My Instagram Username is : @_8d_music_</p>
+        </div>
+        <div class="col-md-3">
+          <a href="">
+            <article>
+              <figure>
+                <img src="img/nisha-ramesh-Q5mPPGld5Zk-unsplash.jpg" alt="">
+              </figure>
+              <div>
+                <h3>How to make halwa</h3>
+              </div>
+            </article>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="">
+            <article>
+              <figure>
+                <img src="img/shreyak-singh-0j4bisyPo3M-unsplash.jpg" alt="">
+              </figure>
+              <div>
+                <h3>How to make biryani</h3>
+              </div>
+            </article>
+          </a>
+        </div>
+      </div>
     </div>
 
-	</div>
+    <!-- Footer -->
+
+    <footer>
+      <h2>Royal Food &copy;</h2>
+      <div class="media justify-content-end">
+        <a href="">
+          <img src="img/facebook (1).png" alt="">
+        </a>
+        <a href="">
+          <img src="img/instagram.png" alt="">
+        </a>
+        <a href="">
+          <img src="img/twitter.png" alt="">
+        </a>
+      </div>
+    </footer>
+
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>

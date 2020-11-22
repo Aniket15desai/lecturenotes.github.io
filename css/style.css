@@ -1,0 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bg{
+  background-color: #5e1ea9;
+}
+
+.navbar-nav li a {
+  color: #FFBD4A;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 18px;
+  margin-left: 40px;
+}
+.navbar-nav{
+  margin-right: 30px;
+}
+
+.navbar-nav .nav-link.active{
+  color: orangered;
+}
+
+.navbar-nav li a:hover{
+  color: red;
+}
+
+nav .navbar-brand img{
+  position: relative;
+  width: 82px;
+  height: 75px;
+  left: 30px;
+  border-radius: 29px;
+}
+
+.navbar-toggler{
+  margin-right: 30px;
+}
+
+.fa .fa-bars{
+  padding: 25px;
+}
+
+.row{
+  margin-right: 0px;
+}
+
+.Home{
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  left: 0px;
+  top: 105px;
+  background: #FFBD4A;
+  border-radius: 40px 40px 0px 0px;
+}
+
+.col-md-6 img{
+  width: 280;
+  height: 340px;
+  margin-right: 100px;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+.col-md-6 h1{
+  width: 500px;
+  height: 197px;
+  margin-left: 100px;
+  margin-right: 150px;
+  margin-top: 100px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 43px;
+  line-height: 64px;
+  color: #FFFFFF;
+}
+
+.col-md-6 button{
+  width: 200px;
+  height: 70px;
+  margin-left: 100px;
+  margin-top: -80px;
+  background: #5E1EA9;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+
+.Blog{
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  left: 0px;
+  top: 107vh;
+  background: #5E1EA9;
+}
+
+.Blog h1{
+  position: absolute;
+  width: 166px;
+  height: 74px;
+  left: 60px;
+  margin-top: 50px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+
+  color: #FFBD4A;
+}
+
+article{
+  position: absolute;
+  width: 320px;
+  height: 240px;
+  margin-left: 90px;
+  background: #FFFFFF;
+  border-radius: 37px;
+  top: 190px;
+}
+
+article figure img{
+  position: absolute;
+  width: 320px;
+  height: 159px;
+  border-radius: 37px 37px 0px 0px;
+}
+
+article div h3{
+  position: absolute;
+  width: 235px;
+  height: 89px;
+  top: 155px;
+  left: 40px;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+
+  color: #000000;
+}
+
+footer{
+  position: absolute;
+  width: 100%;
+  height: 146px;
+  left: 0px;
+  top: 186vh;
+  background: #FFBD4A;
+}
+
+footer h2{
+  position: absolute;
+  width: 239px;
+  height: 123px;
+  left: 38px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  top: 15px;
+}
+
+footer .media{
+  height: 40px;
+  text-align: right;
+  margin-top: 55px;
+  margin-right: 50px;
+}
+
+footer img{
+  height: 40px;
+  margin-right: 40px;
+}
+
+.box{
+
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background: #5E1EA9;
+  top: 110px;
+}
+
+form{
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  height: 80vh;
+  top: 37px;
+  background: #FFBD4A;
+  border: 1px solid #FFBD4A;
+  box-sizing: border-box;
+  border-radius: 140px;
+  text-align: center;
+}
+
+form h1{
+  text-align: center;
+  margin-top: 50px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  color: #000000;
+}
+
+input{
+  width: 300px;
+  height: 40px;
+  margin-top: 20px;
+  text-align: center;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+textarea{
+  width: 300px;
+  height: 100px;
+  margin-top: 20px;
+  text-align: center;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+#file, #submit{
+  display: none;
+}
+
+label{
+  color: black;
+  height: 28px;
+  width: 120px;
+  background-color: white;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.SUBMIT{
+  color: black;
+  height: 28px;
+  width: 120px;
+  background-color: white;
+  margin-left: 50px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    position: relative;
+  }
+  .col-md-6 h1{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .col-md-6 button{
+    width: 150px;
+    height: 55px;
+    margin-left: 40px;
+  }
+  .col-md-6 img{
+    width: 240px;
+    height: 280px;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: -80px;
+  }
+}

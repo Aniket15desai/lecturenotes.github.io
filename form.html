@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Foodies</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="https://kit.fontawesome.com/f9cebb06b7.js" crossorigin="anonymous"></script>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body>
+    
+        <!-- Navigation Bar Section -->
+        <nav class="navbar navbar-expand-lg bg fixed-top">
+            <div class="navbar-brand" href="#"><img src="img/Purple and Yellow Floral Dots Thaithai Restaurant Logo.png" alt=""></div>
+            <button 
+              id="nav-btn" 
+              class="navbar-toggler navbar-toggler-right" 
+              type="button" 
+              data-toggle="collapse" 
+              data-target="#navbarNav" 
+              aria-expanded="false" 
+              aria-label="Toggle navigation">
+              <span class="fa fa-bars hamburger-menu-button-open"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link"href="index.html"><i class="fa fa-home"></i>Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#A"><i class="fa fa-user"></i>Blog Post Form</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+
+        <div class="box">
+            <form action="">
+                <h1>Blog Post Form</h1>
+                <input type="text" placeholder="Blog Title"><br>
+                <input type="text" placeholder="Author"><br>
+                <input type="text" placeholder="Author Social Media"><br>
+                <textarea name="blog content" id="" cols="30" rows="10" placeholder="Blog Content"></textarea>
+                <div>
+                    <input type="file" id="file" name="Image" placeholder="Choose Image" accept="image/*" />
+                    <br>
+                    <label for="file">
+                            Choose Image 
+                    </label>
+                    
+                    <input id="submit" type="submit" name="submit" value="Submit" />
+                    <label for="submit" class="SUBMIT">
+                        Submit
+                    </label>
+                </div>
+            </form>
+        </div>
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/index.js"></script>
+</body>
+</html>
